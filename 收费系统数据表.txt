@@ -1,0 +1,13 @@
+收费系统数据表
+CREATE TABLE BASE(
+ID INTEGER PRIMARY KEY AUTOINCREMENT,
+car_number TEXT NOT NULL,
+car_in INTEGER,
+car_out INTEGER,
+car_stay INTEGER,
+is_vip TEXT,
+vip_datebegin INTEGER,
+vip_dateend INTEGER,
+pay_total INTEGER,
+confidence INTEGER
+, paid TEXT);
